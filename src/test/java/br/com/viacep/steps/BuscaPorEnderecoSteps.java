@@ -12,7 +12,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.*;
 
-public class RestSteps2 {
+public class BuscaPorEnderecoSteps {
 
 
     private static RequestSpecification request;

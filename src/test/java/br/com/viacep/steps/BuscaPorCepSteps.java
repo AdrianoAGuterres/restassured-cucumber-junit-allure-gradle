@@ -13,7 +13,7 @@ import java.net.HttpURLConnection;
 
 import static io.restassured.RestAssured.*;
 
-public class RestSteps {
+public class BuscaPorCepSteps {
 
     private static RequestSpecification request;
 
