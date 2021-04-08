@@ -19,7 +19,7 @@ public class BuscaPorEnderecoSteps {
     private static List<Endereco> enderecosList;
 
     @Dado("que o usuario iserir RS, Gravatai e Barroso")
-    public void que_o_usuario_iserir_RS_Gravatai_e_Barroso() {
+    public void que_o_usuario_iserir_rs_gravatai_e_barroso() {
         request = null;
         enderecosList = null;
 
@@ -45,7 +45,7 @@ public class BuscaPorEnderecoSteps {
     }
 
     @Então("o primeiro resultado contém os dados 94085-170, Rua Ari Barroso, Morada do Vale I, Gravataí, RS e 4309209")
-    public void o_primeiro_resultado_contem_os_dados_Rua_Ari_Barroso_Morada_do_Vale_I_Gravataí_RS_e() {
+    public void o_primeiro_resultado_contem_os_dados_rua_ari_barroso_morada_do_vale_i_gravatai_RS_e() {
         Endereco endereco = enderecosList.get(0);
 
         String cepExpected = "94085-170";
@@ -66,7 +66,7 @@ public class BuscaPorEnderecoSteps {
     }
 
     @Então("o segundo resultado contém os dados 94175-000, Rua Almirante Barroso, Recanto Corcunda, Gravataí, RS e 4309209")
-    public void o_segundo_resultado_contem_os_dados_Rua_Almirante_Barroso_Recanto_Corcunda_Gravataí_RS_e() {
+    public void o_segundo_resultado_contem_os_dados_rua_almirante_barroso_recanto_corcunda_gravatai_rs_e_ibge() {
         Endereco endereco = enderecosList.get(1);
 
         String cepExpected = "94175-000";

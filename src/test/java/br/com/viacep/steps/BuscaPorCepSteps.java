@@ -25,7 +25,7 @@ public class BuscaPorCepSteps {
     }
 
     @Dado("^que o usuario insere o CEP \"(.*?)\" e é válido$")
-    public void que_o_usuario_insere_o_CEP_e_eh_válido(String cep) {
+    public void que_o_usuario_insere_o_CEP_e_eh_valido(String cep) {
         definir_path();
         request = given().pathParam("CEP", cep.replace("-", ""));
         int statusCodeActual = request.given().get().statusCode();
