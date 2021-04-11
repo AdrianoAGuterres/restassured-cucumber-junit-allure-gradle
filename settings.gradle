@@ -1,2 +1,2 @@
-rootProject.name = 'restassured-cucumber-junit-allure-gradle'
+rootProject.name = 'restassured-jupiter-allure-gradle'
 
